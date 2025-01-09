@@ -95,7 +95,8 @@ nav ul li a:hover {
 #about-me,
 #experience,
 #projects,
-#skills {
+#skills,
+#contact-me {
     border: 2px solid #333;
     padding: 20px;
     margin: 30px;
@@ -179,6 +180,7 @@ nav ul li a:hover {
     grid-template-columns: repeat(6, 1fr);
     justify-items: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .skills-grid img {
@@ -192,4 +194,28 @@ nav ul li a:hover {
     .skills-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-icons .contact-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.contact-icons .contact-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-icons .contact-icon:hover {
+    transform: scale(1.1);
 }
