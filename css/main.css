@@ -92,7 +92,7 @@ nav ul li a:hover {
     border-color: #fff;
 }
 
-#about-me {
+#about-me, #experience {
     border: 2px solid #333;
     padding: 20px;
     margin: 30px;
@@ -108,9 +108,25 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.section-text {
+.section-text, .experience-list {
     font-size: 16px;
     color: #555;
     line-height: 1.6;
     text-align: justify;
+}
+
+.experience-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.experience-list strong {
+    font-size: 18px;
+    color: #333;
+}
+
+.experience-list p {
+    margin: 5px 0px 0px 0px;
+    font-size: 14px;
+    color: #555;
 }
