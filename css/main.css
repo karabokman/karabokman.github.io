@@ -219,3 +219,11 @@ nav ul li a:hover {
 .contact-icons .contact-icon:hover {
     transform: scale(1.1);
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+}
