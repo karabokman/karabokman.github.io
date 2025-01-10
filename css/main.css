@@ -143,6 +143,11 @@ nav ul li a:hover {
 
 .project {
     margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
 }
 
 .project-title {
@@ -151,16 +156,10 @@ nav ul li a:hover {
     color: #333;
 }
 
-.project-images {
-    margin-bottom: 15px;
-}
-
 .project-image {
     width: 200px;
     height: 200px;
-    border: 1px solid #ddd;
     border-radius: 4px;
-    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
 }
 
 .play-store-button {
