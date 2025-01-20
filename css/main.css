@@ -8,7 +8,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: var(--tertiary-color);
 }
 
@@ -22,7 +22,8 @@ header {
 }
 
 .logo {
-    font-size: 1.5em;
+    font-family: "Merriweather", sans-serif;
+    font-size: 1.3em;
     font-weight: bold;
     color: var(--text-color);
 }
@@ -81,7 +82,7 @@ nav ul li a:hover {
 }
 
 #hero h1 strong {
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-family: "Anton", sans-serif;
 }
 
 .hero-button-container {
