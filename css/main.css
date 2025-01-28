@@ -16,9 +16,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -108,7 +112,7 @@ nav ul li a:hover {
 #projects,
 #skills,
 #contact-me {
-    padding: 20px;
+    padding: 70px 20px;
 }
 
 #about-me {
